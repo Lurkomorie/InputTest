@@ -1,0 +1,28 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal .content {
+    border-radius: 5px;
+    min-width: 330px;
+    min-height: 100px;
+    background-color: #202036;
+    padding: 20px;
+}
+
+.modal .content .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15px;
+}

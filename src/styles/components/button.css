@@ -1,0 +1,47 @@
+.btn {
+    cursor: pointer;
+    border: 0;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: center;
+    margin-left: 10px;
+    outline: none;
+}
+
+.btn:hover {
+    color: #27273e !important;
+}
+
+.small {
+    font-size: 10px;
+    padding: 6px 10px;
+    border-radius: 18px;
+}
+
+.middle {
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 24px;
+}
+
+.blue {
+    box-shadow: 0 8px 8px -4px rgba(69, 121, 245, 0.12), 0 2px 4px -1px rgba(27, 10, 82, 0.12), 0 0 1px 0 rgba(69, 121, 245, 0.24);
+    background-color: #4579f5;
+    color: #ffffff;
+}
+
+.white {
+    box-shadow: 0 8px 8px -4px rgba(69, 121, 245, 0.06), 0 2px 4px -1px rgba(27, 10, 82, 0.06), 0 0 1px 0 rgba(69, 121, 245, 0.12);
+    background-color: #ffffff;
+    color: #4579f5;
+}
+
+.blue:disabled, .white:disabled {
+    color: rgba(224, 224, 255, 0.24);
+    cursor: not-allowed;
+}
+
